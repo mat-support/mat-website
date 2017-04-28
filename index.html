@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Media Arts and Technology, UC Santa Barbara</title>
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/yamm.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="screen">
+<link href="revolution/css/settings.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/scrollToTop.css" rel="stylesheet">
+<link href="css/imageHover.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body data-spy="scroll">
+<a href="#" id="scrollToTop" class="circle"><i class="fa fa-angle-up fa-3x"></i></a>
+<a href="#about" id="scrollDown" class="circle"><i class="fa fa-angle-down fa-3x"></i></a>
+
+<nav class="navbar navbar-default navbar-fixed-top yamm">
+     <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./"><img src="images/MAT_logo_150x54.png" alt="MAT Logo"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown yamm-fw">
+                        <a href="./">Home</a>
+                    </li>
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics  <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <h3 class="heading">Academics</h3>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="nav">
+                                                <li><a href="#">General Info</a></li>
+                                                <li><a href="#">Degree Programs</a></li>
+                                                <li><a href="./admissions.html">Admissions</a></li>
+                                                <li><a href="#">Courses</a></li>
+                                                <li><a href="#">For Current Students</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <img src="images/Mark_Hirsch_300x225.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research  <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <h3 class="heading">Research</h3>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="nav">
+                                                <li><a href="#">Labs</a></li>
+                                                <li><a href="#">Publications</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <img src="images/charlie_roberts_300x225.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">People  <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <h3 class="heading">People</h3>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="nav">
+                                                <li><a href="#">Directory</a></li>
+                                                <li><a href="#">Faculty &amp; Researchers</a></li>
+                                                <li><a href="#">Staff</a></li>
+                                                <li><a href="#">Students</a></li>
+                                                <li><a href="#">Alumni</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <img src="images/Reza_Ali_300x225.jpg" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li> <!-- End .dropdown .yamm-fw -->
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery  <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <h3 class="heading">Gallery</h3>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="nav">
+                                                <li><a href="#">Projects</a></li>
+                                                <li><a href="#">Courses</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <img src="images/LuLiu_300x225.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li> <!-- End .dropdown .yamm-fw -->
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">News &amp; Events  <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <h3 class="heading">News &amp; Events</h3>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="nav">
+                                                <li><a href="#">News</a></li>
+                                                <li><a href="#">Events</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 hide_on_collapse">
+                                            <img src="images/Myles_Sciotto_300x225.jpg" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li> <!-- End .dropdown .yamm-fw -->
+                    <li class="dropdown yamm-fw">
+                        <a href="#">Support MAT</a>
+                   </li>
+                </ul>  <!-- End nav navbar-nav -->
+            </div><!-- .nav-collapse -->
+     </div><!-- container -->
+</nav>
+
+<section id="home">
+    <div class="home-inner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-10">
+                    <div id="caption"></div>
+                    <div id="title_container">
+                        <h3 id="main_title_1" class="animated fadeInUp">Media Arts and Technology</h3>
+                        <h3 id="main_title_2" class="animated fadeInUp">Graduate Program</h3>
+                        <h3 id="main_title_3" class="animated fadeInUp">University of California Santa Barbara</h3>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                  <ul class="main_page_right_col scroll-to">
+                      <li><a href="#about">About MAT</a></li>
+                      <li><a href="#news">News</a></li>
+                      <li><a href="#events">Events</a></li>
+                      <li><a href="#gallery">Gallery</a></li>
+                      <li><a href="#eoy_show">End of Year Show</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 section_col_1">
+                <div style="max-width: 500px; margin: 0 auto">
+                    <div class="rev_slider_wrapper">
+                        <div id="rev_slider_1" class="rev_slider" style="display:none">
+                            <ul>
+                                <li data-transition="slidedown">
+                                    <img src="images/Stoicheia-1_500x333.jpg" alt="Slide 1" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/Jing_2_500x333.png" alt="Slide 2" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slidedown">
+                                    <img src="images/Lance_Putnam_S-Phase_500x333.jpg" alt="Slide 3" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/Tim_Wood_trees_500x333.png" alt="Slide 4" class="rev-slidebg">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 about_col_2">
+                <h3 style="text-align: center">About MAT </h3>
+                <p>Media Arts and Technology (MAT) at UCSB is a transdisciplinary graduate program that fuses emergent media, computer science, engineering, electronic music and digital art research, practice, production, and theory. Created by faculty in both the College of Engineering and the College of Letters and Science, MAT offers an unparalleled opportunity for working at the frontiers of art, science, and technology, where new art forms are born and new expressive media are invented.</p>
+                <p>In MAT, we seek to define and to create the future of media art and media technology. Our research explores the limits of what is possible in technologically sophisticated art and media, both from an artistic and an engineering viewpoint. Combining art, science, engineering, and theory, MAT graduate studies provide students with a combination of critical and technical tools that prepare them for leadership roles in artistic, engineering, production/direction, educational, and research contexts.</p>
+            </div>
+        </div>  <!-- end .row -->
+    </div>   <!-- end .container-fluid -->
+</section>
+
+<section id="news">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 section_col_1">
+                <div style="max-width: 500px; margin: 0 auto">
+                    <div class="rev_slider_wrapper">
+                        <div id="rev_slider_2" class="rev_slider" style="display:none">
+                            <ul>
+                                <li data-transition="slidedown">
+                                    <img src="images/Pablo_Colapinto_Knot_500x333.png" alt="Slide 6" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/Artificial_Nature_500x333.jpg" alt="Slide 7" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slidedown">
+                                    <img src="images/Jing_Yan_500x333.jpg" alt="Slide 8" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/Mohit_Hingorani_mat259_2014_500x333.png" alt="Slide 9" class="rev-slidebg">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 news_col_2">
+                <h3>News</h3>
+                <div class="panel-group" id="accordion-1" role="tablist" aria-multiselectable="true">
+                  <!-- ****************************************************** -->
+                  <div class="panel panel-default">
+                     <div class="panel-heading" role="tab" id="heading_10">
+                        <h4 class="panel-title">
+                           <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-1" href="#collapse_10" aria-expanded="true" aria-controls="collapse_10">
+A new course is being offered by MAT in Spring 2017 called INT 80P &quot;Mediated Worlds&quot;, an integrative introduction to Media Arts and Technology for undergraduate students in all Schools and Colleges.
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapse_10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_10">
+                        <div class="panel-body">
+                           <img src="./uploads/THEMAS_Flyer-01_560x362.png" class="img-responsive center-block" alt="Image" />
+                           <br /><br />
+                           <p>Tuesdays and Thursdays from 3:30 - 4:45pm, Arts 1356. Gold enrollment code: 65813.</p>
+                           <p>Instructor: Marcos Novak</p>
+                           <p><a class="text_link" href="http://themas.mat.ucsb.edu/" target="_blank">themas.mat.ucsb.edu</a></p>
+                           <div class="news_events_tags">
+                              <span class="news_events_tags_first">Tags:</span>
+                              <a href="#">Marcos Novak</a>
+                           </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ****************************************************** -->
+                  <div class="panel panel-default">
+                     <div class="panel-heading" role="tab" id="heading_11">
+                        <h4 class="panel-title">
+                           <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-1" href="#collapse_11" aria-expanded="true" aria-controls="collapse_11">
+An article titled &quot;The Evolution of Spatial Audio in the AlloSphere&quot; appears in the Winter 2016 edition of the Computer Music Journal, published by MIT Press.
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapse_11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_11">
+                        <div class="panel-body">
+                            <div class="img_float_lt">
+                               <img src="./uploads/comj_2016_200x259.jpg" class="img-responsive" alt="Image" />
+                           </div>
+                           <p>Andr&eacute;s Cabrera, JoAnn Kuchera-Morin, Curtis Roads. Computer Music Journal, Winter 2016, Vol. 40, No. 4, pages 47-61.</p>
+                           <h5>Abstract</h5>
+                           <p>
+Spatial audio has been at the core of the multimodal experience at the AlloSphere, a unique instrument for data discovery and exploration through interactive immersive display, since its conception. The AlloSphere multichannel spatial audio design has direct roots in the history of electroacoustic spatial audio and is the result of previous activities in spatial audio at the University of California at Santa Barbara. A concise technical description of the AlloSphere, its architectural and acoustic features, its unique 3-D visual projection system, and the current 54.1 Meyer Sound audio infrastructure is presented, with details of the audio software architecture and the immersive sound capabilities it supports. As part of the process of realizing scientific and artistic projects for the AlloSphere, spatial audio research has been conducted, including the use of decorrelation of audio signals to supplement spatialization and tackling the thorny problem of interactive up-mixing through the Sound Element Spatializer and the Zirkonium Chords project. The latter uses the metaphor of geometric spatial chords as a high-level means of spatial up-mixing in performance. Other developments relating to spatial audio are presented, such as Ryan McGee's Spatial Modulation Synthesis, which simultaneously explores the synthesis of space and timbre.
+                           </p>
+                           <div class="news_events_tags">
+                              <span class="news_events_tags_first">Tags:</span>
+                              <a href="#">Andr&eacute;s Cabrera</a><span>|</span>
+                              <a href="#">JoAnn Kuchera-Morin</a><span>|</span>
+                              <a href="#">Curtis Roads</a><span>|</span>
+                              <a href="#">AlloSphere</a><span>|</span>
+                              <a href="#">Spatial audio</a>
+                           </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ****************************************************** -->
+                  <div class="panel panel-default">
+                     <div class="panel-heading" role="tab" id="heading_12">
+                        <h4 class="panel-title">
+                           <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-1" href="#collapse_12" aria-expanded="false" aria-controls="collapse_12">
+MAT and Computer Science professor Tobias H&ouml;llerer co-authors a new book titled &quot;<em>Augmented Reality: Principles and Practice</em>&quot;.
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapse_12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_12">
+                        <div class="panel-body">
+                           <div class="img_float_lt">
+                              <img src="./uploads/Augmented_Reality_Cover_200x258.jpg" class="img-responsive" alt="Image" />
+                           </div>
+                           <h5>Synopsis</h5>
+                           <p>
+By overlaying computer-generated information on the real world, augmented reality (AR) amplifies human perception and cognition in remarkable ways. Working in this fast-growing field requires knowledge of multiple disciplines, including computer vision, computer graphics, and human-computer interaction. Augmented Reality: Principles and Practice integrates all this knowledge into a single-source reference, presenting today’s most significant work with scrupulous accuracy. Pioneering researchers Dieter Schmalstieg and Tobias Höllerer carefully balance principles and practice, illuminating AR from technical, methodological, and user perspectives.
+                           </p>
+                           <div class="news_events_tags">
+                              <span class="news_events_tags_first">Tags:</span>
+                              <a href="#">Tobias H&ouml;llerer</a><span>|</span>
+                              <a href="#">Augmented Reality</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- ****************************************************** -->
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading_13">
+                          <h4 class="panel-title">
+                              <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-1" href="#collapse_13" aria-expanded="false" aria-controls="collapse_13">
+MAT professor Marcos Novak delivered a TEDx Talk and workshop at TEDx NTUA, at the Athens Conservatoire, on January 21st, hosted by the National Technical University of Athens, in Athens Greece.
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapse_13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_13">
+                          <div class="panel-body">
+                              <img src="./uploads/TEDxNTUA_510x142.png" class="img-responsive center-block" alt="Image" />
+                              <br />
+                              <p>The title of the talk was &quot;<em>Oh Ambient Demons: Heuristics and Civilization</em>&quot;, and the title of the workshop was &quot;<em>Oh Ambient Demons: Spatial Narratives/Narrative Spaces</em>&quot;.</p>
+                              <p><a class="text_link" href="http://tedxntua.com/" target="_blank">tedxntua.com</a></p>
+                              <div class="news_events_tags">
+                                  <span class="news_events_tags_first">Tags:</span>
+                                  <a href="#">Marcos Novak</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ****************************************************** -->
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading_14">
+                          <h4 class="panel-title">
+                              <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-1" href="#collapse_14" aria-expanded="false" aria-controls="collapse_14">
+MAT professor Curtis Roads is awarded the 2016 Giga-Hertz Prize, in recognition for his contributions to the field of electronic music.
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapse_14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_14">
+                          <div class="panel-body">
+<div class="img_float_lt">
+   <img src="./uploads/Giga-Hertz-Preise_200x142.png" class="img-responsive" alt="Image" />
+   <br />
+   <br />
+   <img src="./uploads/Curtis_Roads_200x161.jpg" class="img-responsive" alt="Image" />
+</div>
+
+<p>The Giga-Hertz Prize is sponsored by ZKM Karlsruhe (Das Zentrum f&uuml;r Kunst und Medien), and the SWR Experimental Studio, Baden-Baden, Germany. The awards ceremony will be held at the 2016 Giga-Hertz Preis Festival at ZMK Karlsruhe, November 24-27, 2016.</p>
+<p><a class="text_link" href="http://www.news.ucsb.edu/2016/017479/unanticipated-honor" target="_blank">www.news.ucsb.edu/2016/017479/unanticipated-honor</a></p>
+<p><a class="text_link" href="http://zkm.de/pressemappe/2016/giga-hertz-preis-2016-fuer-den-us-komponisten-curtis-roads" target="_blank">zkm.de/pressemappe/2016/giga-hertz-preis-2016-fuer-den-us-komponisten-curtis-roads</a></p>
+<p><a class="text_link" href="http://www.swr.de/swr-classic/experimentalstudio" target="_blank">www.swr.de/swr-classic/experimentalstudio</a></p>
+
+                              <div class="news_events_tags">
+                                  <span class="news_events_tags_first">Tags:</span>
+                                  <a href="#">Curtis Roads</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ****************************************************** -->
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading_15">
+                          <h4 class="panel-title">
+                              <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-1" href="#collapse_15" aria-expanded="false" aria-controls="collapse_15">
+MAT professor Marko Peljhan, in collaboration with Matthew Biederman, wins the European Network for Contemporary Audiovisual Creation (ENCAC) Production Residency, for his collaborative project &quot;Soft Probe&quot;
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapse_15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_15">
+                          <div class="panel-body">
+<p>The European Network for Contemporary Audiovisual Creation (ENCAC) is pleased to announce this year’s winners of their annual open call. Totalling 186 submitted projects from 34 countries, a wide range of approaches from developers, performers, visual artists, film makers, choreographers and musicians, composers and sound artists presented their particular visions of the potential for audiovisual creativity in cross-disciplinary fields.</p>
+<p>Winning projects are: “ÆTEROFONER” by Christian Skjødt, &quot;Embodied Gestures&quot; by Enrique Tomás, &quot;Manufactory&quot; by Transforma, &quot;Permafrost&quot; by Adam Basanta and Gil Delindro, &quot;Aeryon&quot; by Maotic and &quot;Soft Probe&quot; by Matthew Biederman and Marko Peljhan. Each of the 6 winning artists will be awarded a residency at one of the following institutions: Avatar, Quebec, CTM Festival DISK, Berlin, hTh Montpellier, LABoral Centro de Arte y Creación Industrial, Gijón and Le Lieu Unique, Nantes.</p>
+<p>Le Lieu Unique will host Matthew Biederman and Marko Peljhan for their project, &quot;Soft Probe - the Edges of SDR (software-defined radio)&quot;. The artists propose to research and create a tactical environment using software-defined radios for insight into contemporary telecommunication paradigms. The jury is convinced that the artists’ political stance and artistic experience will produce an impact on research which underlines the fragility of contemporary telecommunication infrastructures. Biederman and Peljhan’s use of open source equipment and software, their focus on our current loss of privacy and their keen understanding of the shifts brought about by SDR technology will ensure that &quot;Soft Probe&quot; comes out as a live and autonomous electromagnetic spectrum probe that charts today’s machines, raising awareness of what we emit without knowing it.</p>
+<p><a class="text_link" href="http://www.ctm-festival.de/news/encac-audiovisual-network-announces-6-winning-projects/" target="_blank">www.ctm-festival.de/news/encac-audiovisual-network-announces-6-winning-projects</a></p>
+
+                              <div class="news_events_tags">
+                                  <span class="news_events_tags_first">Tags:</span>
+                                  <a href="#">Marko Peljhan</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ****************************************************** -->
+
+                </div>
+            </div>
+        </div>  <!-- end .row -->
+    </div>  <!-- end .container-fluid -->
+</section>
+
+<section id="events">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 section_col_1">
+                <div style="max-width: 500px; margin: 0 auto">
+                    <div class="rev_slider_wrapper">
+                        <div id="rev_slider_3" class="rev_slider" style="display:none">
+                            <ul>
+                                <li data-transition="slidedown">
+                                    <img src="images/Hive_Solen_Akshay_500x333.png" alt="Slide 10" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/GenerativeDrift-Paul_500x333.png" alt="Slide 11" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slidedown">
+                                    <img src="images/Graham_Wakefield_AlloSphere_500x333.jpg" alt="Slide 12" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/TimeGiver-YuanYiMyles_500x333.png" alt="Slide 13" class="rev-slidebg">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 events_col_2">
+                <h3>Events</h3>
+                <div class="panel-group" id="accordion-2" role="tablist" aria-multiselectable="true">
+
+                  <!-- ****************************************************** -->
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading_21">
+                          <h4 class="panel-title">
+                              <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-2" href="#collapse_21" aria-expanded="false" aria-controls="collapse_21">
+First Thursdays at SBCAST.
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapse_21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_21">
+                          <div class="panel-body">
+<div class="img_float_lt">
+   <img src="./uploads/eoys_sbcast_1_300x200.jpg" class="img-responsive" alt="Image" />
+   <br />
+   <br />
+   <img src="./uploads/eoys_sbcast_2_300x200.jpg" class="img-responsive" alt="Image" />
+</div>
+
+<p>Audio-visual performances and installations by the MAT community in downtown Santa Barbara, on the first Thursday of every month.</p>
+<p><a class="text_link" href="http://sbcast.org/" target="_blank">sbcast.org</a></p>
+                              <div class="news_events_tags">
+                                  <span class="news_events_tags_first">Tags:</span>
+                                  <a href="#">SBCAST</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ****************************************************** -->
+
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading_22">
+                          <h4 class="panel-title">
+                              <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-2" href="#collapse_22" aria-expanded="false" aria-controls="collapse_22">
+MAT Seminar Series:&nbsp; &quot;<em>On Space Curves as a Substrate for Audiovisual Synthesis and Composition</em>&quot;. Speaker: Lance Putnam. Tuesday, February 21, 6pm. Elings Hall, 2nd floor.
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapse_22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_22">
+                          <div class="panel-body">
+<img src="./uploads/Lance_Putnam_510x310.png" class="img-responsive center-block" alt="Image" />
+<br /><br />
+<p>
+In this talk, Lance presents the use of space curves as a fundamental construct for audiovisual composition. Curves provide an attractive starting point for audiovisual synthesis as they are relatively easy to translate into sound and graphics. Systems for producing curves for art and design date back to at least the 18th century and have carried through the technological stages of mechanical, electronic, and digital. Contemporary uses of space curves will be presented through Lance's audiovisual compositions &quot;S Phase&quot; and &quot;Adrift&quot; the hydrogen atom composition &quot;Probably/Possibly?&quot; done in collaboration with Dr. JoAnn Kuchera Morin and Dr. Luca Peliti, and the &quot;Mutator VR&quot; virtual reality experience done in collaboration with Dr. William Latham and Professor Stephen Todd at Goldsmiths college. The talk will be followed by immersive performances of the 3D audiovisual works &quot;Adrift&quot; and &quot;Probably/Possibly?&quot; in the UCSB AlloSphere three-story virtual environment.
+</p>
+<p>
+Lance Putnam is a composer with interest in generative art, audiovisual synthesis, digital sound synthesis, and media signal processing. His work explores questions concerning the relationships between sound and graphics, symmetry in art and science, and motion as a spatiotemporal concept. He holds an M.A. in Electronic Music and Sound Design and a Ph.D. in Media Arts and Technology from the Media Arts and Technology program at the University of California, Santa Barbara. His dissertation &quot;The Harmonic Pattern Function: A Mathematical Model Integrating Synthesis of Sound Graphical Patterns&quot; was selected for the Leonardo journal LABS 2016 top abstracts. His audiovisual work &quot;S Phase&quot; has been shown at numerous locations including the 2008 International Computer Music Conference in Belfast, Northern Ireland and the Traiettorie Festival in Parma, Italy. His work &quot;Adrift&quot; an audiovisual composition designed for virtual environments, is on rotation in the UCSB AlloSphere and was performed live at the 2015 Generative Arts Conference in Venice, Italy. From 2008 to 2012, he conducted research in audio/visual synthesis at the AlloSphere Research Facility and TransLab in Santa Barbara, California. From 2012 to 2015, he was an assistant professor at the University of Aalborg in the Department of Architecture, Design and Media Technology where he also taught multimedia programming in the Art and Technology program. He is currently investigating new approaches to procedural art as a research associate in Computing at Goldsmiths, University of London under the Digital Creativity Labs. Here he is developing the virtual reality experience &quot;Mutator VR&quot; which has been shown shown at New Scientist Live, London, at East Gallery, Norwich University of Arts, and at Cyfest 17, St. Petersburg, Russia.
+</p>
+<p><a class="text_link" href="http://www.mat.ucsb.edu/l.putnam/" target="_blank">www.mat.ucsb.edu/l.putnam</a></p>
+<p><a class="text_link" href="http://mutatorvr.co.uk/" target="_blank">mutatorvr.co.uk</a></p>
+<p>
+For more information about the MAT Seminar Series, go to: &nbsp;<a class="text_link" href="http://seminar.mat.ucsb.edu" target="_blank">seminar.mat.ucsb.edu</a>.
+</p>
+                              <div class="news_events_tags">
+                                  <span class="news_events_tags_first">Tags:</span>
+                                  <a href="#">Lance Putnam</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ****************************************************** -->
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading_23">
+                          <h4 class="panel-title">
+                              <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-2" href="#collapse_23" aria-expanded="false" aria-controls="collapse_23">
+MAT Seminar Series:&nbsp; &quot;<em>Imagination Projects Reality; Reality Constrains Imagination</em>&quot;. Speaker: Ben Bogart. Monday, February 27, 1pm. Engineering Building, room 2001.
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapse_23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_23">
+                          <div class="panel-body">
+<img src="./uploads/Ben_Bogart_510x310.png" class="img-responsive center-block" alt="Image" />
+<br /><br />
+<p>
+I strive to be a generalist; I am an artist who works at the edges of disciplines integrating and challenging knowledge, most recently in cognitive science. I favor a broad and integrative view of knowledge creation that rejects specialism. In the background of my work is an ongoing inquiry into the relation between the world as conceived and the world as independent of cognition. I think of subjects (imagination) and objects (reality) as mutually constructive; as subjects we project and impose categories on objects, while objects’ physical reality as independent of cognition constrains and challenges those categories. I use computational systems to examine the power struggle between subjects and objects. I build machine subjects that manifest categorization processes (unsupervised clustering algorithms) that suppress variation in order to emphasize sameness. My machine subjects categorize, organize and reduce the infinite complexity of sensory reality. In doing so they participate in a process of abstraction that breaks sensed reality into atomic particles that serve as the material from which novel images are constructed. These &quot;mental&quot; images are of the world—their mechanisms uncover underlying statistical truths about reality as independent of cognition, but they are also of us—they are projections of bounded subjective understanding. In this talk I will introduce the conceptual context for my work and present a survey of selected computational works including &quot;Dreaming Machines&quot; &quot;Self-Organized Landscapes&quot; &quot;Watching and Dreaming&quot; &quot;As our gaze peers off into the distance, imagination takes over reality...quot; and current work in development.
+</p>
+<p>
+Ben Bogart is a Vancouver-based interdisciplinary artist working with generative computational processes (including physical modeling, chaos, feedback systems, evolutionary computation, computer vision and machine learning) and has been inspired by knowledge in the natural sciences (quantum physics and cognitive neuroscience) in the service of an epistemological enquiry. Ben has produced processes, artifacts, texts, images and performances that have been presented at academic conferences and art festivals in Canada, the United States of America, the United Arab Emirates, Australia, Turkey, Finland, Germany, Ireland, Brazil, Hong Kong, Norway and Spain. He has been an artist in residence at the Banff Centre (Canada), the New Forms Festival (Canada) and at Videotage (Hong Kong). His research and practice have been funded by the Social Science and Research Council of Canada and the Canada Council for the Arts. Ben holds both master’s and doctorate degrees from the School of Interactive Arts and Technology at Simon Fraser University. During his master’s study he developed a site-specific artwork that uses images captured live in the context of installation as raw material in its ‘creative’ process. In is doctoral work he made &quot;a machine that dreams&quot; that is framed as both a model of dreaming and a site-specific artistic work manifesting an Integrative Theory of visual mentation developed during his doctorate. Ben is currently using this model in the appropriation and reconstruction of popular cinematic depictions of artificial intelligence.
+</p>
+<p><a class="text_link" href="http://www.ekran.org/ben/wp/" target="_blank">www.ekran.org/ben/wp</a></p>
+<p>
+For more information about the MAT Seminar Series, go to: &nbsp;<a class="text_link" href="http://seminar.mat.ucsb.edu" target="_blank">seminar.mat.ucsb.edu</a>.
+</p>
+                              <div class="news_events_tags">
+                                  <span class="news_events_tags_first">Tags:</span>
+                                  <a href="#">Ben Bogart</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ****************************************************** -->
+
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading_24">
+                          <h4 class="panel-title">
+                              <a role="button" class="news_events_topic" data-toggle="collapse" data-parent="#accordion-2" href="#collapse_24" aria-expanded="false" aria-controls="collapse_24">
+MAT Seminar Series:&nbsp; &quot;<em>Visualization in AI & Neural Networks</em>&quot;. Speaker: Jeffrey Greenberg. Tuesday, February 28, 10:30am. Elings Hall, room 2611.
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapse_24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_24">
+                          <div class="panel-body">
+<img src="./uploads/Jeffrey_Greenberg_510x310.png" class="img-responsive center-block" alt="Image" />
+<br /><br />
+<p>
+In the past few years, neural networks, have re-emerged as one of the key technologies in AI related work. Because of their ability to find solutions in complex problem spaces, they are being applied in almost every field at this time. On one hand they are used to recognize and transform information from images, sound, speech, or text applications, and on the other they can generate and modify inputs as well, creating pictures, music, speech, poems, and software. Though the latter is very weak with comparison to the efficacy of the former, the step forward is amazing. In this talk we’ll look a brief technical look at architecture and theory of neural networks to form an intuitive understanding of how they work and the challenges there are in computing them. We’ll pay particular attention to convolutional neural nets in particular.  We’ll look at various related visualization techniques for understanding how these conv-nets process information such as direct matrix representations, t-SNE, and see what insights we can gain through generative work, like DeepDream &amp; DeepVis. t-SNE is one  visualization that can be easily applied to multi-dimensional data to form insights with low effort. There are others that come from NLP, which is a different AI approach than neural networks, that are used when working with language. Two we’ll look at are based on ‘word embeddings’ : Word2Vec, and network mapping (controversy measures).
+</p>
+<p>
+Jeffrey Greenberg has a degrees in Bioengineering and Performance Art from UCSD. Currently, Vp of Engineering at PeerWell.co, where he is focused on improving outcomes of surgeries and other treatments, he has patents in ultrasound imaging, and voice recognition applications. With a history of product and deep technology innovation in such diverse areas as medicine and diagnostic imaging, social media, telephony, operating systems, and games, he aims to work on technology for doing good. Combining experiences at Bell Labs, working on AI, and edge technology together with an Art and culture focus ( including NEA, NYSCA, and foundation grants) he has a history of finding areas that matter and advancing the state-of-the-art.
+</p>
+<p><a class="text_link" href="http://www.jeffrey-greenberg.com/" target="_blank">www.jeffrey-greenberg.com</a></p>
+<p>
+For more information about the MAT Seminar Series, go to: &nbsp;<a class="text_link" href="http://seminar.mat.ucsb.edu" target="_blank">seminar.mat.ucsb.edu</a>.
+</p>
+                              <div class="news_events_tags">
+                                  <span class="news_events_tags_first">Tags:</span>
+                                  <a href="#">Jeffrey Greenberg</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ****************************************************** -->
+
+                </div>
+            </div>
+        </div>  <!-- end .row -->
+    </div>  <!-- end .container-fluid -->
+</section>
+
+<section id="gallery">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 section_col_1">
+                <div style="max-width: 500px; margin: 0 auto">
+                    <div class="rev_slider_wrapper">
+                        <div id="rev_slider_4" class="rev_slider" style="display:none">
+                            <ul>
+                                <li data-transition="slidedown">
+                                    <img src="images/odc_translab_500x333.jpg" alt="Slide 14" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/Nataly_Moreno_mat200c_spring_2014_tumblr_500x333.png" alt="Slide 15" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slidedown">
+                                    <img src="images/Charlie_Roberts_Gibber_500x333.jpg" alt="Slide 16" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/Mathias_Wagner_mat259_2015_500x333.png" alt="Slide 17" class="rev-slidebg">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 gallery_col_2">
+                <h3>Gallery</h3>
+                <table>
+                <tr>
+                    <td>
+                    <div class="item-img-wrap">
+                        <img src="images/LuLiu_180x154.png" class="img-responsive" alt="Gallery">
+                        <div class="item-img-overlay">
+                            <a href="http://www.mat.ucsb.edu"></a>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                    <div class="item-img-wrap">
+                        <img src="images/Lance_Putnam_hydrogen_180x154.png" class="img-responsive" alt="Gallery">
+                        <div class="item-img-overlay">
+                            <a href="http://www.mat.ucsb.edu"></a>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                    <div class="item-img-wrap">
+                        <img src="images/Kurt_Kaminsky_180x154.png" class="img-responsive" alt="Gallery">
+                        <div class="item-img-overlay">
+                            <a href="http://www.mat.ucsb.edu"></a>
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="item-img-wrap">
+                        <img src="images/Hannah_Wolfe_180x154.png" class="img-responsive" alt="Gallery">
+                        <div class="item-img-overlay">
+                            <a href="http://www.mat.ucsb.edu"></a>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                    <div class="item-img-wrap">
+                        <img src="images/Myles_Sciotto_180x154.jpg" class="img-responsive" alt="Gallery">
+                        <div class="item-img-overlay">
+                            <a href="http://www.mat.ucsb.edu"></a>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                    <div class="item-img-wrap">
+                        <img src="images/eoys_2014_cm_180x154.jpg" class="img-responsive" alt="Gallery">
+                        <div class="item-img-overlay">
+                            <a href="http://www.mat.ucsb.edu"></a>
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                </table>
+            </div>
+        </div>  <!-- end .row -->
+    </div>  <!-- end .container-fluid -->
+</section>
+
+<section id="eoy_show">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 section_col_1">
+                <div style="max-width: 500px; margin: 0 auto">
+                    <div class="rev_slider_wrapper">
+                        <div id="rev_slider_5" class="rev_slider" style="display:none">
+                            <ul>
+                                <li data-transition="slidedown">
+                                    <img src="images/TakeFlight-QianYun_500x333.png" alt="Slide 18" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/mat200c_500x333.png" alt="Slide 19" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slidedown">
+                                    <img src="images/VOSIS-Ryan_McGee_500x333.png" alt="Slide 20" class="rev-slidebg">
+                                </li>
+                                <li data-transition="slideleft">
+                                    <img src="images/David_Gordon_500x333.png" alt="Slide 21" class="rev-slidebg">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 eoy_show_col_2">
+                <h3>End of Year Show</h3>
+                <div class="item-img-wrap" style="max-width: 500px">
+                    <img src="images/EOYS_2015_500x333.jpg" class="img-responsive center-block" alt="Image">
+                    <div class="item-img-overlay">
+                        <a href="http://www.mat.ucsb.edu"><span style="padding-top: 30%">End of Year Show</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>  <!-- end .row -->
+    </div>   <!-- end .container-fluid -->
+</section>
+
+<footer>
+    <div class="container">
+        <div class="text-center">
+            <p style="margin-bottom: 12px"><a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-vimeo"></i></a></p>
+            <p>Media Arts and Technology.  University of California, Santa Barbara.</p>
+            <p>Copyright &copy; 2017. Regents of the University of California. All rights reserved.</p>
+            <p>Website by MAT</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>        
+<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>       
+<script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+<script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
+<script src="revolution/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+<script src="revolution/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+<script src="js/revolution_slider.js" type="text/javascript"></script>
+<script src="js/wow.min.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>
+
