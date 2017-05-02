@@ -330,6 +330,10 @@ ul.sidebar_nav li a i.hover {
     transform: translateX(-50%);
 */
   }
+
+  footer {
+    padding: 60px 0 40px 0;
+  }
 }
 
 /* ***** drop down menu ***** */
@@ -480,6 +484,25 @@ ul.sidebar_nav li a i.hover {
       -ms-transform: translateX(-50%);
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
+  }
+
+  .sidebar {
+    padding-top: 0;
+    margin-bottom: 22px;
+  }
+
+  .main_content {
+     padding-top: 30px;
+     padding: 30px;
+  }
+
+  footer {
+    padding-top: 25px;
+  }
+
+  footer .footer_col {
+    padding-bottom: 32px;
+    text-align: center;
   }
 }
 
@@ -822,7 +845,6 @@ div.news_events_tags a + span {
 }
 
 footer {
-    padding: 60px 0 40px 0;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
