@@ -1,4 +1,4 @@
-
+head
 html, body {
   height: 100%;
 }
@@ -117,19 +117,6 @@ a.text_link:hover {
 
 #caption {
      display: none;
-}
-
-header {
-   width: 100%;
-}
-
-#header_image {
-   width: 100%;
-   /* margin-top: 114px; */
-   /* padding: 200px 0; */
-   /* background: url("../images/MAT259_W17_1920x400.png") no-repeat fixed center top; */
-   /* background: url("../images/MAT594GL_F16_1920x300.png") no-repeat fixed center top; */
-   background: url("../images/MAT594GL_F16_1920x400.jpg") no-repeat fixed center top;
 }
 
 .overlay {
