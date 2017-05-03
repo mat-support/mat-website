@@ -384,7 +384,7 @@ ul.sidebar_nav li a i.hover {
   text-align: center;
 }
 
-/* Style the menu links for small screens */
+/* ** Style the menu links for small screens ** */
 
 @media (max-width: 767px) {
   .nav.navbar-nav {
@@ -479,7 +479,6 @@ ul.sidebar_nav li a i.hover {
   }
 
   .main_content {
-     padding-top: 30px;
      padding: 30px;
   }
 
@@ -491,7 +490,13 @@ ul.sidebar_nav li a i.hover {
     padding-bottom: 32px;
     text-align: center;
   }
+
+  .page_title {
+    padding-left: 30px;
+  }
 }
+
+/* ** End of Style the menu links for small screens ** /
 
 /************pace style for page pre-loader********/
 .pace {
