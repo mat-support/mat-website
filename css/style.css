@@ -237,7 +237,8 @@ ul.sidebar_nav li a i.hover {
   }
 
   .navbar.shrink .dropdown-menu {
-    background-color: #000;
+    /* background-color: #000; */
+    display: none;
   }
 
 /*
@@ -864,4 +865,6 @@ footer a:hover {
   -ms-border-radius: 6px;
   border-radius: 6px;
 }
+
+
 
