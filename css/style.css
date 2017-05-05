@@ -130,31 +130,41 @@ a.text_link:hover {
 }
 
 .page_title {
-   padding: 25px 0 25px 45px;
+   padding: 20px 0 25px 45px;
    background-color: #fff;
 }
+
+.page_title h1 {
+  margin-bottom: 6px;
+}
+
+/* .page_title h1 span {
+   border-bottom: solid 2px #cfd0d1
+}
+*/
 
 .sidebar {
    padding-top: 40px;
 }
 
 ul.sidebar_nav {
-   margin: 0 45px 0 30px;
+   margin: 0 45px 0 45px;
    padding: 0;
    list-style: none;
 }
 
 ul.sidebar_nav li a {
   display: block;
-  padding: 6px 0;
+  padding: 5px 0;
   text-decoration: none;
-  font-size: 16px;
-  color: #e6e5e5;
+  font-size: 15px;
+  color: #e2e2e2;
+  color: #b0b0b0;
   font-weight: 800;
 }
 
 ul.sidebar_nav ul.third_level li a {
-  padding: 5px 0;
+  padding: 4px 0;
   color: #bababa;
   font-weight: normal;
 }
@@ -859,20 +869,29 @@ footer p {
    line-height: 15.5px;
 }
 
-footer a {
+footer .social_media a {
    padding: 12px;
    /* color: #d01660; */
    color: rgba(255, 255, 255, 0.55);
    font-size: 17px;
 }
 
-footer a:hover {
+footer .social_media a:hover {
   color: rgba(255, 255, 255, 0.8);
   background-color: #474747;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   border-radius: 6px;
+}
+
+footer .social_media a:focus {
+   outline-style: none;
+}
+
+/* To disable Chrome's ugly highlight */
+a.popup-map.focus, a.popup-map:focus, a.popup-map:active.focus, a.popup-map:active:focus {
+   outline-style: none;
 }
 
 

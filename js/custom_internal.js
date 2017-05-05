@@ -1,11 +1,4 @@
 
-// Add background color to open accordion panel
-$(".panel-collapse").on("show.bs.collapse", function() {
-   $(this).parent('.panel-default').addClass('panel-heading_2');
-});
-$(".panel-collapse").on("hide.bs.collapse", function() {
-   $(this).parent().removeClass('panel-heading_2');
-});
 
 // Shrink top header on scroll
 $(document).on("scroll", function () {
@@ -47,20 +40,6 @@ $(function() {
    });
 });
 
-
-/* Hide the MAT title that scrolls in after you scroll down */
-
-$(window).scroll(function() {
-   if ($(this).scrollTop() > 100) {
-       $('#title_container').fadeOut();
-       $('#caption').fadeOut();
-   } else {
-       $('#title_container').fadeIn();
-       $('#caption').fadeIn();
-   }
-});
-
-
 /* Display scroll to top arrow when you scroll down */
 
 $(window).scroll(function() {
@@ -89,6 +68,13 @@ $('.sidebar_nav a').hover(function(){
 },
 function(){
     $('i', this).removeClass('hover');
+});
+
+$('.popup-map').magnificPopup({
+    type: 'ajax',
+    closeOnContentClick: true,
+    //mainClass: 'mfp-img-mobile',
+    //mainClass: 'mfp-fade',
 });
 
 
