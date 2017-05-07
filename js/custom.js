@@ -120,4 +120,15 @@ $(window).scroll(function() {
    }
 });
 
+$('.popup-map').magnificPopup({
+    type: 'iframe',
+    disableOn: 700,
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    closeOnContentClick: true,
+    fixedContentPos: false
+});
+
+
 

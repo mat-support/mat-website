@@ -71,10 +71,15 @@ function(){
 });
 
 $('.popup-map').magnificPopup({
-    type: 'ajax',
+    type: 'iframe',
+    disableOn: 700,
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
     closeOnContentClick: true,
-    //mainClass: 'mfp-img-mobile',
-    //mainClass: 'mfp-fade',
+    fixedContentPos: false
 });
+
+
 
 
