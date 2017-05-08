@@ -192,6 +192,7 @@ ul.sidebar_nav ul.third_level li a i.hover {
 
 ul.third_level {
    padding-left: 20px;
+   list-style: none;
 }
 
 .main_content {
