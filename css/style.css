@@ -906,11 +906,6 @@ a.popup-map.focus, a.popup-map:focus, a.popup-map:active.focus, a.popup-map:acti
 
 /* *** Magnific Popup *** */
 
-#map-canvas {
-  height: 100%;
-  background-color: #000;
-}
-
 .mfp-fade.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.15s ease-out; 
