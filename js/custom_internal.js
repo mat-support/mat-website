@@ -40,7 +40,10 @@ $(function() {
    });
 });
 
-/* Display scroll to top arrow when you scroll down */
+/*
+ * Display scroll to top arrow when you scroll down,
+ * and make sure dropdown menu is closed.
+ */
 
 $(window).scroll(function() {
    if ($(this).scrollTop() > 100) {
