@@ -92,7 +92,7 @@ a.text_link:hover {
 }
 
 .shrink.navbar-default .navbar-nav > .active > a, .shrink.navbar-default .navbar-nav > .active > a:focus, .shrink.navbar-default .navbar-nav > .active > a:hover {
-  color: #a6d2f4;
+  color: #ff0066;
   background-color: transparent;
 }
 
