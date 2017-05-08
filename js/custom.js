@@ -102,6 +102,7 @@ $(window).scroll(function() {
 $(window).scroll(function() {
    if ($(this).scrollTop() > 100) {
       $('#scrollToTop').fadeIn(900);
+      $('.dropdown.yamm-fw.open').removeClass('open');
    } else {
       $('#scrollToTop').fadeOut(900);
    }
