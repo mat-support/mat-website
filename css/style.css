@@ -65,19 +65,19 @@ a.text_link:hover {
 
 .navbar-default .navbar-nav > li > a {
   padding: 14px 12px;
-  color: #fff;
+  color: #bbb;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-   color: #2d2d2d;
+   color: #fff;
    background: rgba(255, 255, 255, 0.4);
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-   color: #2d2d2d;
+   color: #fff;
    background: rgba(255, 255, 255, 0.4);
 }
 
@@ -87,7 +87,7 @@ a.text_link:hover {
  */
  
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-  color: #f2b84b;
+  color: #fff;
   background-color: transparent;
 }
 
@@ -268,7 +268,7 @@ ul.third_level {
   }
 
   .navbar-default .navbar-nav > li > a span {
-     color: #a6d2f4;
+     color: #ccc;
    }
 
   .navbar-default .navbar-nav .yamm-content .nav {
