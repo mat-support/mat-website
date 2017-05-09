@@ -54,6 +54,14 @@ $(window).scroll(function() {
    }
 });
 
+$(window).scroll(function() {
+   if ($(this).scrollTop() > 300) {
+      $('ul.sidebar_nav').addClass('sidebar_nav_fixed');
+   } else {
+      $('ul.sidebar_nav').removeClass('sidebar_nav_fixed');
+   }
+});
+
 $('#scrollToTop').click(function() {
    $('html, body').animate({scrollTop : 0}, 1500, 'easeInOutExpo');
       event.preventDefault();
