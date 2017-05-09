@@ -116,7 +116,8 @@ a.text_link:hover {
 }
 
 #caption {
-     display: none;
+     /* display: none; */
+     visibility: hidden;
 }
 
 .overlay {
@@ -217,7 +218,7 @@ ul.third_level {
    font-size: 20px;
 }
 
-/* Style for smart phones and above - large screens */
+/* **** Style for smart phones and above - large screens **** */
 
 @media (min-width: 768px) {
   .dropdown-menu {
@@ -300,6 +301,7 @@ ul.third_level {
      position: fixed;
      bottom: 60px;
      left: 45px;
+     visibility: visible;
      font-size: 16px;
      color: rgba(255, 255, 255, 0.5);
   }
@@ -308,11 +310,44 @@ ul.third_level {
       position: fixed;
       bottom: 50px;
       left: 50%;
-/*  The transform here centers the text in the middle of the page
-    -ms-transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-*/
+      /*  The transform here centers the text in the middle of the page
+      -ms-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      */
+  }
+
+  #main_title_1 {
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 44px;
+    font-weight: normal;
+    line-height: 110%;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+
+  #main_title_2 {
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 110%;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+  }
+
+  #main_title_3 {
+    margin-top: 5px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 110%;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
   }
 
   footer {
@@ -381,7 +416,7 @@ ul.third_level {
   text-align: center;
 }
 
-/* ** Style the menu links for small screens ** */
+/* **** Style the menu links for small screens **** */
 
 @media (max-width: 767px) {
   .nav.navbar-nav {
@@ -463,15 +498,16 @@ ul.third_level {
 
   #title_container {
       position: fixed;
-      bottom: 155px;
-      left: 50%;
+      bottom: 200px;
+      left: 63%;
       -ms-transform: translateX(-50%);
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
+      width: 100%;
   }
 
   .sidebar {
-    padding-top: 0;
+    padding-top: 12px;
     margin-bottom: 22px;
   }
 
@@ -491,9 +527,36 @@ ul.third_level {
   .page_title {
     padding-left: 30px;
   }
+
+  #main_title_1 {
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+
+  #main_title_2 {
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+  }
+
+  #main_title_3 {
+    margin-top: 5px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+  }
 }
 
-/* ** End of Style the menu links for small screens ** /
+/* ** End of styling the menu links for small screens ** /
 
 /************pace style for page pre-loader********/
 .pace {
@@ -639,36 +702,6 @@ ul.third_level {
    background-color: rgba(0,0,0,0.4);
    padding: 0;
    list-style: none;
-}
-
-#main_title_1 {
-  margin: 0;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 44px;
-  line-height: 120%;
-  color: rgba(255, 255, 255, 0.6);
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-
-#main_title_2 {
-  margin: 0;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 34px;
-  line-height: 120%;
-  color: rgba(255, 255, 255, 0.6);
-  -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
-}
-
-#main_title_3 {
-  margin-top: 5px;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 26px;
-  line-height: 120%;
-  color: rgba(255, 255, 255, 0.6);
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
 }
 
 /* Custom styling of About Section Slider */
