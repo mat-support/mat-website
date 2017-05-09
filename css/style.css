@@ -149,11 +149,6 @@ ul.sidebar_nav {
    list-style: none;
 }
 
-ul.sidebar_nav_fixed {
-  position: fixed;
-  top: 100px;
-}
-
 ul.sidebar_nav li a {
   display: block;
   padding: 5px 0;
@@ -352,6 +347,11 @@ ul.third_level {
     color: rgba(255, 255, 255, 0.6);
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
+  }
+
+  ul.sidebar_nav_fixed {
+    position: fixed;
+    top: 100px;
   }
 
   footer {
