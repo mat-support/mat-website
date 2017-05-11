@@ -25,21 +25,6 @@ $(function() {
    });
 });
 
-$(function() {
-   $('a#scrollDown').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-         var target = $(this.hash);
-         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-         if (target.length) {
-            $('html, body').animate({
-               scrollTop: target.offset().top - 70
-               }, 1500, 'easeInOutExpo');
-            return false;
-         }
-      }
-   });
-});
-
 /*
  * Display scroll to top arrow when you scroll down,
  * and make sure dropdown menu is closed.
@@ -54,6 +39,7 @@ $(window).scroll(function() {
    }
 });
 
+/* Fix the sidebar nav when you scroll below 300px from the top of the viewport */
 $(window).scroll(function() {
    if ($(this).scrollTop() > 300) {
       $('ul.sidebar_nav').addClass('sidebar_nav_fixed');
@@ -67,15 +53,7 @@ $('#scrollToTop').click(function() {
       event.preventDefault();
 });
 
-$(window).scroll(function() {
-   if ($(this).scrollTop() < 100) {
-      $('#scrollDown').fadeIn(900);
-   } else {
-      $('#scrollDown').fadeOut(900);
-   }
-});
-
-$('.sidebar_nav a').hover(function(){
+$('.third_level li a').hover(function(){
     $('i', this).addClass('hover');
 },
 function(){
@@ -91,7 +69,5 @@ $('.popup-map').magnificPopup({
     closeOnContentClick: true,
     fixedContentPos: false
 });
-
-
 
 

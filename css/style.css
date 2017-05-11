@@ -96,7 +96,6 @@ a.text_link:hover {
   background-color: transparent;
 }
 
-
 /** On scroll change navigation style **/
 
 .navbar-default.shrink {
@@ -105,7 +104,6 @@ a.text_link:hover {
   border: 0;
   padding: 0 0 8px 0;
 }
-
 
 /* Shrink the MAT logo when scroll down */
 
@@ -120,6 +118,7 @@ a.text_link:hover {
      visibility: hidden;
 }
 
+/* Unused with img and class img-responsive */
 .overlay {
    padding: 200px 0;
    background: rgba(0,0,0,0.2);
@@ -131,13 +130,13 @@ a.text_link:hover {
 
 .page_title {
    padding: 20px 0 25px 45px;
+   padding: 20px 0 21px 45px;
    background-color: #fff;
 }
 
 .page_title h1 {
-  margin-bottom: 6px;
+  margin-bottom: 0;
 }
-
 
 .sidebar {
    padding-top: 40px;
@@ -158,18 +157,12 @@ ul.sidebar_nav li a {
   font-weight: 800;
 }
 
-ul.sidebar_nav li a:hover, ul.sidebar_nav li a.active {
-  color:#fff;
+ul.sidebar_nav li a:hover {
+  color: #fff;
 }
 
-ul.sidebar_nav ul.third_level li a {
-  padding: 4px 0;
-  color: #bababa;
-  font-weight: normal;
-}
-
-ul.sidebar_nav ul.third_level li a:hover {
-   color: #fff;
+ul.sidebar_nav li a.active_link {
+  color: #fff;
 }
 
 ul.sidebar_nav li i {
@@ -178,21 +171,29 @@ ul.sidebar_nav li i {
   color: #414141;
 }
 
-ul.sidebar_nav li a i.hover {
-  color: #cb6a91;
-}
-
-ul.sidebar_nav li a.active i {
-  color: #ba5f83;
-}
-
-ul.sidebar_nav ul.third_level li a i.hover {
-  color: #858484;
-}
-
 ul.third_level {
    padding-left: 20px;
    list-style: none;
+}
+
+ul.sidebar_nav ul.third_level li a {
+  padding: 4px 0;
+  color: #bababa;
+  font-weight: normal;
+}
+
+ul.sidebar_nav ul.third_level li a:hover, ul.sidebar_nav ul.third_level li.active a {
+   color: #fff;
+   background-color: transparent;
+}
+
+ul.sidebar_nav ul.third_level li a i.hover, ul.sidebar_nav ul.nav.third_level li.active a i {
+  color: #858484;
+}
+
+/* Necessary to remove Bootstraps default behavior */
+.nav > li > a:focus {
+  background-color: transparent;
 }
 
 .main_content {
@@ -206,7 +207,7 @@ ul.third_level {
 }
 
 .main_content h3 {
-   margin-top: 30px;
+   margin-top: 35px;
    margin-bottom: 14px;
    font-size: 22px;
 }
@@ -214,7 +215,7 @@ ul.third_level {
 .main_content h4 {
    margin-top: 20px;
    margin-bottom: 10px;
-   font-size: 20px;
+   font-size: 18px;
 }
 
 /* **** Style for smart phones and above - large screens **** */
@@ -455,7 +456,7 @@ ul.third_level {
    }
 
   .navbar-default .navbar-nav > li > a span {
-     color: #a6d2f4;
+     color: #ccc;
    }
 
    .navbar-brand {
@@ -560,9 +561,9 @@ ul.third_level {
   }
 }
 
-/* ** End of styling the menu links for small screens ** /
+/* **** End of styling the menu links for small screens **** /
 
-/************pace style for page pre-loader********/
+/* **** Pace page pre-loader **** */
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -674,7 +675,7 @@ ul.third_level {
   }
 }
 
-/** home **/
+/* **** home **** */
 
 #home {
   background-color: transparent;
@@ -946,5 +947,4 @@ a.popup-map.focus, a.popup-map:focus, a.popup-map:active.focus, a.popup-map:acti
   padding: 6px;
   border: solid 1px #656565;
 }
-
 
