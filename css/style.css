@@ -129,12 +129,13 @@ a.text_link:hover {
 }
 
 .page_title {
-   padding: 20px 0 21px 45px;
+   padding: 20px 0 21px 43px;
    background-color: #fff;
 }
 
 .page_title h1 {
   margin-bottom: 0;
+  font-size: 32px;
 }
 
 .sidebar {
@@ -171,8 +172,9 @@ ul.sidebar_nav li i {
 }
 
 ul.third_level {
-   padding-left: 20px;
-   list-style: none;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  list-style: none;
 }
 
 ul.sidebar_nav ul.third_level li a {
@@ -186,7 +188,7 @@ ul.sidebar_nav ul.third_level li a:hover, ul.sidebar_nav ul.third_level li.activ
    background-color: transparent;
 }
 
-ul.sidebar_nav ul.third_level li a i.hover, ul.sidebar_nav ul.nav.third_level li.active a i {
+ul.sidebar_nav ul.third_level li a i.hover, ul.sidebar_nav ul.third_level li.active a i {
   color: #858484;
 }
 
@@ -213,9 +215,81 @@ ul.sidebar_nav ul.third_level li a i.hover, ul.sidebar_nav ul.nav.third_level li
 
 .main_content h4 {
    margin-top: 20px;
-   margin-bottom: 10px;
+   margin-bottom: 12px;
    font-size: 18px;
 }
+
+.main_content ul {
+  list-style-type: square;
+}
+
+.main_content ul, .main_content ol {
+  padding-left: 30px;
+}
+
+.main_content ul li, .main_content ol li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.course_description {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-top: solid 1px #cfd0d1;
+}
+
+.course_description:hover {
+  background-color: #eee;
+}
+
+.course_description h5 {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.course_description p {
+  margin: 4px 0;
+}
+
+.courses_table th {
+  padding: 5px 0;
+  background-color: #e8e8e8;
+}
+
+.courses_table td {
+  padding-top: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.courses_table td p {
+  margin: 0;
+}
+
+.courses_table td.last_row {
+  padding-bottom: 14px;
+  border-bottom: solid 1px #cfd0d1;
+}
+
+.courses_table td:first-child, .courses_table th:first-child {
+  padding-left: 8px;
+}
+
+.courses_table tr:hover {
+  background-color: #eee;
+}
+
+ul.list_links {
+  margin-bottom: 25px;
+}
+
+ul.list_links li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+
+
 
 /* **** Style for smart phones and above - large screens **** */
 
@@ -244,7 +318,7 @@ ul.sidebar_nav ul.third_level li a i.hover, ul.sidebar_nav ul.nav.third_level li
   }
 
   .nav.navbar-nav {
-     margin-top: 16px;
+     margin-top: 13px;
      background-color: rgba(0,0,0,0.4);
      /* border-bottom: solid 1px rgba(255, 255, 255, 0.2); */
   }
