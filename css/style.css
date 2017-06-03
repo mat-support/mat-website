@@ -9,10 +9,9 @@ body {
   -ms-text-size-adjust: 100%;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 15px;
-  line-height: 23px;
+  line-height: 22px;
   background-color: #fff;
 }
-
 
 a.text_link {
   text-decoration: none;
@@ -219,6 +218,10 @@ ul.sidebar_nav ul.third_level li a i.hover, ul.sidebar_nav ul.third_level li.act
    font-size: 18px;
 }
 
+.main_content h5 {
+  font-size: 15px;
+}
+
 .main_content ul {
   list-style-type: square;
 }
@@ -230,6 +233,10 @@ ul.sidebar_nav ul.third_level li a i.hover, ul.sidebar_nav ul.third_level li.act
 .main_content ul li, .main_content ol li {
   padding-top: 2px;
   padding-bottom: 2px;
+}
+
+section#directory ul {
+  margin-bottom: 0;
 }
 
 .course_description {
@@ -286,6 +293,82 @@ ul.list_links {
 ul.list_links li {
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+.lab_description td {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  vertical-align: top;
+  border-bottom: solid 1px #cfd0d1;
+}
+
+.lab_description h4 {
+  margin-top: 0;
+}
+
+.lab_description h4 a {
+  margin-bottom: 1px;
+  text-decoration: none;
+  color: #333;
+}
+
+.lab_description h4 a:hover {
+  margin-bottom: 0;
+  color: #7147a4;
+  border-bottom: solid 1px #4c4c4c;
+}
+
+#academic_publications p, #phd_dissertations p, #masters_theses p {
+  margin-bottom: 14px;
+}
+
+#directory ul li a {
+  margin-bottom: 1px;
+  text-decoration: none;
+  color: #7147a4;
+}
+
+#directory ul li a:hover {
+  margin-bottom: 0;
+  border-bottom: solid 1px #4c4c4c;
+}
+
+#directory table td, .people_table td {
+  vertical-align: top;
+}
+
+.people_table td {
+  padding-top: 19px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px #cfd0d1;
+}
+
+.people_table td.people_photo {
+  width: 150px;
+}
+
+.people_table td.people_photo img {
+  width: 110px;
+  height: 110px;
+}
+
+.people_table h5 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.people_table h5 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.people_table .contact_info {
+  margin-bottom: 14px;
+}
+
+.people_table .contact_info p {
+  margin-bottom: 0;
 }
 
 
@@ -473,6 +556,10 @@ ul.list_links li {
 .navbar .dropdown-menu li a:hover {
   color: #1d1d1d;
   background: rgba(255, 255, 255, 0.4);
+}
+
+.navbar .dropdown-menu li.active a {
+  color: #fff;
 }
 
 .yamm-content {
