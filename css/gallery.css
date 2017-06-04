@@ -158,7 +158,7 @@
 }
 
 .slideshow figcaption h3 {
-	/*padding: 0 0 0.5em;*/
+	padding: 0 0 0.5em;
 /*
 	font-weight: 300;*/
 	font-size: 200%;
@@ -263,7 +263,7 @@ span.nav-close:before {
 @media screen and (max-width: 60em) {
 	/* responsive columns; see "Element sizing" on http://masonry.desandro.com/options.html */
 	.grid li {
-		width: 33.3%;
+		width: 50%;
 	}
 
 	.slideshow li {
